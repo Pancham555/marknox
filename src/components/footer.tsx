@@ -2,7 +2,7 @@ const Footer = () => {
   const list = ["About", "Projects", "Socials"];
   return (
     <>
-      <footer className="flex flex-col bg-gray-200 overflow-hidden">
+      <footer className="flex flex-col dark:bg-slate-700 bg-gray-200 overflow-hidden">
         <div className="w-full">
           <div className="container flex flex-col mx-auto">
             <div className="flex flex-col items-center w-full my-10">
@@ -14,7 +14,7 @@ const Footer = () => {
                       <a
                         key={i}
                         href="javascript:void(0)"
-                        className="text-gray-600 hover:text-gray-900"
+                        className="dark:text-gray-200 dark:hover:text-gray-100 text-gray-600 hover:text-gray-900"
                       >
                         {data}
                       </a>
